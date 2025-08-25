@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "dev": "ts-node-dev --respawn src/index.ts",
     "seed:genres": "ts-node src/utils/seedGenres.ts",
     "start": "ts-node-dev --respawn build/index.js",
